@@ -1,0 +1,26 @@
+{
+  "name": "reimagined-octo-doodle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebByte/reimagined-octo-doodle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebByte/reimagined-octo-doodle/issues"
+  },
+  "homepage": "https://github.com/sebByte/reimagined-octo-doodle#readme",
+  "devDependencies": {
+    "electron": "^15.1.2"
+  },
+  "dependencies": {
+    "electron-fetch": "^1.7.4"
+  }
+}

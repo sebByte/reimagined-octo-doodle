@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabins 1.0</title>
+    <style>
+        #notes div {
+            border: 1px black solid;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Cabins</h2>
+
+    <article>
+        <form action="" method="POST">
+            Username: <input type="text" placeholder="example@email.com" name="uname" required/> <br>
+            Password: <input type="password" placeholder="************" name="psw" required/> <br>
+
+            <input type="button" id="btn" value="Log in">
+        </form>
+    </article>
+
+    <div id="cabins"></div>
+
+    <script src="./renderer.js"></script>
+    
+</body>
+
+</html>
